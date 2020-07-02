@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.756756b9.chunk.css",
+    "main.js": "/static/js/main.4ed7e917.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.1f1f19a3.js",
+    "static/css/2.b53a2eb4.chunk.css": "/static/css/2.b53a2eb4.chunk.css",
+    "static/js/2.08b823de.chunk.js": "/static/js/2.08b823de.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.bef94767b151904a60e520aa109f9151.js": "/precache-manifest.bef94767b151904a60e520aa109f9151.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.08b823de.chunk.js.LICENSE.txt": "/static/js/2.08b823de.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg",
+    "static/media/logo.svg": "/static/media/logo.7eea718b.svg",
+    "static/media/logo_menu.png": "/static/media/logo_menu.dd16fa17.png",
+    "static/media/sacola_vazia.png": "/static/media/sacola_vazia.14f71069.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f1f19a3.js",
+    "static/css/2.b53a2eb4.chunk.css",
+    "static/js/2.08b823de.chunk.js",
+    "static/css/main.756756b9.chunk.css",
+    "static/js/main.4ed7e917.chunk.js"
+  ]
+}

@@ -1,0 +1,192 @@
+.painel-container {
+    padding: 0 0px;
+    margin: 0px auto;
+}
+
+.painel-container header img {
+    height: 64px;
+}
+
+.painel-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.btn-cardapio {
+    background: #545152;
+    text-decoration: none;
+    color: #FFF;
+    padding: 14px;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.btn-cardapio:hover {
+    background-color: #999;
+}
+
+.painel-container ul {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-gap: 7px;
+    padding: 8px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    list-style: none;
+    width: 29%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .painel-container ul {
+        display: grid;
+        grid-template-columns: max-content;
+        grid-gap: 7px;
+        padding: 8px;
+        margin-top: 7%;
+        margin-bottom: 6%;
+        list-style: none;
+        width: 29%;
+    }
+}
+
+.painel-container ul li {
+    width: 128%;
+    background: #FFF;
+    padding: 8px;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0px 0px 4px rgba(9, 12, 11, 0.5);
+}
+
+.painel-container ul li button {
+    position: absolute;
+    top: 24px;
+    border: 0;
+}
+
+.painel-container ul li button:hover {
+    opacity: 0.8;
+}
+
+.painel-container ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.painel-container ul li p + strong {
+    margin-top: 31px;
+}
+
+.painel-container ul li p {
+    color: #737380;
+    line-height: 7px;
+    font-size: 16px;
+}
+
+.painel-container header span {
+    margin-left: 541px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.painel-container-add {
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    justify-content: space-between;
+    color: #535051;
+}
+
+.painel-container-add button {
+    display: inline-flex;
+    font-weight: bold;
+    padding-right: 26px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.painel-container-add button:hover {
+    opacity: 0.6;
+}
+
+.btn-edit {
+    right: 15px;
+}
+
+.btn-trash {
+    right: 50px;
+}
+
+.btn-produto {
+    right: 80px;
+}
+
+.save-cardapio {
+    z-index: 1;
+    background: #FFF;
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 10%;
+    padding: 45px;
+    border-radius: 11px;
+    box-shadow: 2px 2px 23px 1250px rgba(0, 0, 0, 0.2);
+}
+
+.alert-danger {
+    color: #ff000094;
+    left: 410px;
+    position: absolute;
+    display: flex;
+    bottom: 7%;
+    align-items: center;
+}
+
+.painel-container-button {
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 515px;
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 3px;
+    box-shadow: rgba(9, 12, 11, 0.5) 0px 0px 4px;
+    z-index: 1;
+    transition: 0.2s;
+}
+
+.painel-container-button:hover {
+    box-shadow: rgba(9, 12, 11, 0.5) 0px 0px 10px;
+    opacity: 0.8s;
+}
+
+.loader {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 900px;
+    z-index: 1;
+}
+
+.scroll-cardapio {
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    position: fixed;
+    width: 550px;
+    height: 85vh;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
+}
+
+.bar-footer {
+    border-top: 1px solid #ffffff;
+}

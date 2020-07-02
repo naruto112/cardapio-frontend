@@ -1,0 +1,18 @@
+.logon-container {
+    width: 50%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: auto auto;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.title-login {
+    display: flex;
+    align-items: center;
+}
+
+.title-login img {
+    margin-left: 150px;
+}

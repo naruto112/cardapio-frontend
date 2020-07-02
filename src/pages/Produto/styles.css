@@ -1,0 +1,227 @@
+.new-produto-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    margin-left: 2%;
+}
+
+.new-produto-container .content {
+    width: 100%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.new-produto-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.new-produto-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.new-produto-container .content form {
+    width: 100%;
+    max-width: 4500px;
+}
+
+.new-produto-container .content form input,
+.new-produto-container .content form textarea {
+    margin-top: 8px;
+}
+
+.back-link-card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+    margin-left: 17px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.produto {
+    font-weight: bold;
+    margin-left: 420px;
+    font-size: large;
+}
+
+.plus {
+    margin-left: 373px;
+    color: #403d3e;
+}
+
+.btn-plus {
+    background-color: transparent;
+    border: transparent;
+    width: 20px;
+}
+
+.grid {
+    background: #FFF;
+    display: grid;
+    height: 143px;
+    margin-top: 3px;
+    border-radius: 8px;
+    line-height: 5;
+    padding-left: 1%;
+    color: #403d3e;
+    width: 600px;
+    box-shadow: 0px 0px 4px rgba(9, 12, 11, 0.5);
+}
+
+.img-produto {
+    width: 26%;
+    height: 125px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+
+.name-produto {
+    font-weight: bolder;
+    margin-left: 170px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.description-produto {
+    margin-top: 20px;
+    font-weight: 300;
+    color: #696969;
+    margin-left: 170px;
+    position: absolute;
+}
+
+.price-produto {
+    margin-top: 40px;
+    font-weight: bolder;
+    margin-left: 170px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.form-produto {
+    box-shadow: 2px 2px 23px 1250px rgba(0, 0, 0, 0.2);
+    background-color: #FFF;
+    position: fixed;
+    padding: 42px;
+    border-radius: 8px;
+    margin-left: 21%;
+    width: 1116px;
+    z-index: 1;
+}
+
+.fix-close {
+    position: absolute;
+    margin-left: 1029px;
+    margin-top: -29px;
+}
+
+.btn-photo {
+    background-color: #797979;
+    padding: 8px;
+    color: #FFF;
+    border-radius: 8px;
+    font-family: Roboto;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.desc-menu {
+    margin-bottom: 10px;
+}
+
+.name-menu p {
+    padding: 10px;
+    font-size: 22px;
+    color: #545152;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu {
+    background: #FFF;
+    border-radius: 7px;
+    padding: 29px;
+}
+
+.name-menu strong {
+    padding: 10px;
+    font-size: 16px;
+    color: #737380;
+}
+
+.desc-menu p {
+    padding: 10px;
+    font-size: 22px;
+    color: #545152;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.desc-menu strong {
+    padding: 10px;
+    font-size: 16px;
+    color: #737380;
+}
+
+.btn-edit {
+    margin-left: 1040px;
+    background: transparent;
+    border: none;
+    transition: filter 0.1s;
+}
+
+.btn-edit:hover {
+    filter: brightness(70%);
+}
+
+.btn-trash {
+    margin-left: 839px;
+    background: transparent;
+    border: none;
+    transition: filter 0.1s;
+}
+
+.btn-trash:hover {
+    filter: brightness(70%);
+}
+
+.plus-circle {
+    margin-top: 2%;
+    margin-left: 98%;
+    background-color: transparent;
+    color: #535051;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.plus-circle:hover {
+    filter: brightness(1%);
+}
+
+.scroll-produto {
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-top: 2.5%;
+    margin-left: 28%;
+    padding: 0 2px 20px;
+    overflow-y: scroll;
+    position: fixed;
+    height: 86vh;
+}
